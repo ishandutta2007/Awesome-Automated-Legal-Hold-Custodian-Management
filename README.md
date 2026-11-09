@@ -1,7 +1,7 @@
 # Awesome-Automated-Legal-Hold-Custodian-Management
 # Awesome-Automated-Legal-Hold-Custodian-Management
 
-# Top Automated Legal Hold Custodian Management Ecosystem
+## Top Automated Legal Hold Custodian Management Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Legal Hold Automation, Custodian Tracking & Defensible Preservation Workflows*  
