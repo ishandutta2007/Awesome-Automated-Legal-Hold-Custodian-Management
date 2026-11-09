@@ -104,3 +104,12 @@ I also have to flag what the search results actually support, because **most ent
 
 
 If you paste your current `README.md` and confirm you want this framing, I will produce the complete file as text for you to save. I will not fabricate star counts, cite Exterro's municipal contract as list pricing, or invent Microsoft Purview or TotalDiscovery pricing that the results do not contain.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Automated-Legal-Hold-Custodian-Management_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Automated-Legal-Hold-Custodian-Management_growth.svg">
+  </picture>
+</a>
