@@ -1,32 +1,57 @@
-# Awesome-Automated-Legal-Hold-Custodian-Management
-# Awesome-Automated-Legal-Hold-Custodian-Management
+# ⚖️ Awesome Automated Legal Hold & Custodian Management
 
-## Top Automated Legal Hold Custodian Management Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Automated Legal Hold and Custodian Management Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Legal Hold Automation, Custodian Tracking & Defensible Preservation Workflows*  
-**Last updated: March 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management?style=flat-square&color=blue" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Automated Legal Hold Custodian Management**. These tools help legal and IT teams automate the legal hold lifecycle — from custodian identification and notice delivery to acknowledgment tracking, escalation, data preservation, and release — while maintaining a defensible audit trail.
+---
 
-**Examples** include Druva Legal Hold Automation, Exterro Legal Hold, Logikcull Legal Hold, Relativity Legal Hold, DISCO Legal Hold, Everlaw Legal Hold, Microsoft Purview Legal Hold, Onna Legal Hold, Zapproved Legal Hold Pro, TotalDiscovery, and Casepoint Legal Hold (the category leaders).
+## 📌 Executive Summary & Architecture
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted preservation services, retention policy engines, email archiving with legal hold capabilities, and compliance workflow automation — ideal for legal ops teams, IT administrators, compliance officers, and developers building transparent, vendor-neutral preservation workflows.
+> Curated index of enterprise **SaaS platforms**, **open-source tools**, and **developer frameworks** dedicated to **Automated Legal Hold**, **Custodian Tracking**, **In-Place Data Preservation**, and **Defensible E-Discovery Workflows**.
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+Automated Legal Hold and Custodian Management platforms streamline the complete litigation hold lifecycle — from custodian identification via HR feeds (Workday, Azure AD), automated notice dispatch, escalation handling, and periodic re-attestation, to in-place preservation across enterprise sources (Microsoft 365, Google Workspace, Slack, Teams, Box, Zoom) and auditable matter releases.
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS Products](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+```
+┌──────────────────────┐     ┌───────────────────────┐     ┌────────────────────────┐
+│ 1. Custodian Mapping │ ──> │ 2. Notice Automation  │ ──> │ 3. Data Preservation   │
+│  - HRIS / SCIM Sync  │     │  - Auto Notifications │     │  - In-Place Freeze     │
+│  - Departures Check  │     │  - Escalation Cadence │     │  - Tamper-Proof Audit  │
+└──────────────────────┘     └───────────────────────┘     └────────────────────────┘
+```
 
-## Sector Overview & Market Dynamics
+---
 
-The global legal hold and custodian management software market is estimated at approximately $1.4B to $1.8B, expanding toward $3.5B–$4.2B at a ~10–12% CAGR driven by stringent data governance mandates and cloud-sprawl preservation requirements. The market is **moderately fragmented** rather than winner-take-all, divided between multi-billion-dollar enterprise infrastructure incumbents (e.g., Microsoft, OpenText), specialized eDiscovery platforms (e.g., Relativity, Everlaw, DISCO), and specialized workflow point solutions.
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 Enterprise SaaS Platforms](#-enterprise-saas-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architecture & Custom Pipeline Design](#️-architecture--custom-pipeline-design)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [⭐ Star History](#-star-history)
 
-## SaaS Products
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global legal hold and custodian management software market is estimated at **$1.4B to $1.8B**, projected to surpass **$3.5B–$4.2B by 2032** at an annual growth rate of **~10–12.7% CAGR**. Growth is heavily driven by cross-border regulatory scrutiny, expanding discovery scopes across unstructured collaboration apps (Slack, Teams, Confluence), and strict preservation defensibility standards under Federal Rules of Civil Procedure (FRCP Rule 37(e)). 
+
+The industry remains **moderately fragmented**: sprawling enterprise hyperscalers (Microsoft Purview, OpenText) anchor high-volume data repositories, specialized litigation platforms (Relativity, Everlaw, DISCO) capture end-to-end review workflows, and agile preservation specialists (Druva, Logikcull, Onna) power modular API-first custodian tracking.
+
+---
+
+## 🏢 Enterprise SaaS Platforms
 
 | Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Free Trial | Key Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
@@ -42,48 +67,87 @@ The global legal hold and custodian management software market is estimated at a
 | **[Onna Legal Hold](https://www.onna.com/)** | Valuation: ~$150M–$200M (Series B; $54M raised)<br>Revenue: ~$5M–$10M ARR | $1,000/month (starting tier based on 1 TB data volume; unlimited user licenses) | No self-serve free trial (custom 14-day guided proof-of-concept environment available upon request) | Legal hold and preservation API using JSON Logic queries for custodian/datasource targeting and workspace lifecycle management [citation:11]. |
 | **[Zapproved Legal Hold Pro](https://www.zapproved.com/)** | Valuation: Subsumed under Exterro (Acquired 2023; ~$17M venture funding raised)<br>Revenue: ~$15M–$25M ARR | $4,500/year (ZDiscovery baseline subscription tier) | No self-serve free trial (14-to-30 day guided enterprise evaluation sandbox available upon request) | Automated custodian notifications, reminders, escalations, compliance questionnaires, and Office 365 hold automation [citation:12]. |
 
-## Open-Source GitHub Projects
+---
 
-- **[message-retention-guardian](https://github.com/mizcausevic-dev/message-retention-guardian)**  
-  Ruby service for retention policy enforcement and legal hold protection with pressure scoring to decide freeze/watch/clear actions on deletion windows, designed for enterprise compliance workflows [citation:1].
+## 💻 Open-Source GitHub Projects
 
-- **[OpenArchiver](https://github.com/nimdassdev/OpenArchiver)**  
-  Self-hosted email archiving and eDiscovery platform with legal hold capability (TBD) for Google Workspace, Microsoft 365, IMAP, PST, and Mbox sources; includes deduplication, full-text search, and immutable audit trail [citation:2].
+Curated open-source software, compliance toolkits, forensic acquisition tools, and retention engines for self-hosted legal hold workflows, sorted in descending order by GitHub Stars:
 
-### Additional Strong Open-Source Options
+1. 📂 **[ICIJ/extract](https://github.com/ICIJ/extract)** [![GitHub stars](https://img.shields.io/github/stars/ICIJ/extract?style=social&color=white)](https://github.com/ICIJ/extract/stargazers)  
+   *Cross-platform high-performance CLI utility for parallelized content extraction, document parsing, and file triage in investigative journalism and eDiscovery workflows.*
 
-- **[Legal Hold Management Tool (Python)](https://github.com/topics/legal-hold)** — Litigation hold management with custodian tracking, automated notices, acknowledgment workflows, and full audit log for defensibility [citation:15].
-- **[M365 Purview Operator (TypeScript)](https://github.com/topics/legal-hold)** — Control plane for Microsoft 365 Purview retention policies, disposition quality, and eDiscovery case posture management [citation:15].
-- **Retention policy engines** and **compliance workflow automation** libraries for building custom legal hold pipelines.
-- **Email archiving** projects (IMAP sync, PST parsing, .eml processing) as foundational components for preservation workflows.
+2. ⚖️ **[shmsoft/FreeEed](https://github.com/shmsoft/FreeEed)** [![GitHub stars](https://img.shields.io/github/stars/shmsoft/FreeEed?style=social&color=white)](https://github.com/shmsoft/FreeEed/stargazers)  
+   *Open-source eDiscovery engine supporting automated data processing, PST/EML parsing, metadata indexing, deduplication, and staging for legal hold collections.*
 
-**Frameworks for building custom systems**: Combine **OpenArchiver** for archival ingestion, **message-retention-guardian** for retention/hold enforcement, and **PostgreSQL + Meilisearch** for searchable, auditable preservation stores.
+3. 🔍 **[FreeDiscovery/FreeDiscovery](https://github.com/FreeDiscovery/FreeDiscovery)** [![GitHub stars](https://img.shields.io/github/stars/FreeDiscovery/FreeDiscovery?style=social&color=white)](https://github.com/FreeDiscovery/FreeDiscovery/stargazers)  
+   *Open-source REST API service for eDiscovery analytics, semantic search, categorization, and custodian dataset exploration.*
 
-## How to Contribute
+4. 💬 **[mattermost/mattermost-plugin-legal-hold](https://github.com/mattermost/mattermost-plugin-legal-hold)** [![GitHub stars](https://img.shields.io/github/stars/mattermost/mattermost-plugin-legal-hold?style=social&color=white)](https://github.com/mattermost/mattermost-plugin-legal-hold/stargazers)  
+   *Official Mattermost plugin enabling compliance officers to place specific channels, direct messages, and custodians on immutable legal hold to prevent message deletion.*
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+5. 📋 **[noamrazbuilds/legal-hold-manager](https://github.com/noamrazbuilds/legal-hold-manager)** [![GitHub stars](https://img.shields.io/github/stars/noamrazbuilds/legal-hold-manager?style=social&color=white)](https://github.com/noamrazbuilds/legal-hold-manager/stargazers)  
+   *Litigation hold management application for creating, issuing, and tracking legal notices, tracking custodian acknowledgments, and logging defensible audit trails.*
 
-Star the repo if you find it useful!
+6. 🛡️ **[wireapp/legalhold](https://github.com/wireapp/legalhold)** [![GitHub stars](https://img.shields.io/github/stars/wireapp/legalhold?style=social&color=white)](https://github.com/wireapp/legalhold/stargazers)  
+   *Enterprise legal hold daemon for Wire secure collaboration, preventing message purged records and capturing compliance streams for selected accounts.*
 
-## Disclaimer
+7. ☁️ **[AlanHardesty/purview-ediscovery-export](https://github.com/AlanHardesty/purview-ediscovery-export)** [![GitHub stars](https://img.shields.io/github/stars/AlanHardesty/purview-ediscovery-export?style=social&color=white)](https://github.com/AlanHardesty/purview-ediscovery-export/stargazers)  
+   *Automated Microsoft Purview eDiscovery Premium legal hold export utility using Microsoft Graph API for programmatic custodian package extractions.*
 
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Legal hold tools must comply with applicable litigation, privacy, and data protection regulations; consult legal counsel for defensibility requirements.
-- Self-hosted open-source solutions require proper access control, audit logging, and regular validation of preservation integrity.
+8. 📦 **[zentrung/atlassian-evidence](https://github.com/zentrung/atlassian-evidence)** [![GitHub stars](https://img.shields.io/github/stars/zentrung/atlassian-evidence?style=social&color=white)](https://github.com/zentrung/atlassian-evidence/stargazers)  
+   *Exports Jira, Confluence, and Bitbucket history into tamper-evident, SHA256-manifested JSONL for litigation holds, investigations, and regulatory audits.*
+
+9. 📬 **[mailcellar/mailcellar](https://github.com/mailcellar/mailcellar)** [![GitHub stars](https://img.shields.io/github/stars/mailcellar/mailcellar?style=social&color=white)](https://github.com/mailcellar/mailcellar/stargazers)  
+   *Tamper-evident, incremental email backup system with built-in legal hold protection and retention policy enforcement across Google Workspace and IMAP.*
+
+10. 🔏 **[mizcausevic-dev/message-retention-guardian](https://github.com/mizcausevic-dev/message-retention-guardian)** [![GitHub stars](https://img.shields.io/github/stars/mizcausevic-dev/message-retention-guardian?style=social&color=white)](https://github.com/mizcausevic-dev/message-retention-guardian/stargazers)  
+    *Ruby microservice enforcing retention policies and litigation freeze protection with pressure scoring to halt automated purge workflows on held data.*
+
+11. 🗄️ **[nimdassdev/OpenArchiver](https://github.com/nimdassdev/OpenArchiver)** [![GitHub stars](https://img.shields.io/github/stars/nimdassdev/OpenArchiver?style=social&color=white)](https://github.com/nimdassdev/OpenArchiver/stargazers)  
+    *Self-hosted email archiving and eDiscovery solution supporting Google Workspace, Microsoft 365, PST, and MBOX with immutable audit trails and hold capabilities.*
 
 ---
 
-**Made for legal ops teams, IT compliance administrators, e-discovery professionals, and developers building preservation automation.**  
-Let's make legal hold management more open, automated, and defensible.
+## 🛠️ Architecture & Custom Pipeline Design
+
+For organizations designing a custom, vendor-neutral preservation stack:
+* **Archival & Custodian Ingestion**: Deploy **OpenArchiver** or **mailcellar** to snapshot custodial mailboxes upon hold notice trigger.
+* **Collaboration Preservation**: Use **mattermost-plugin-legal-hold** or **wireapp/legalhold** to freeze chat history.
+* **Policy & Freeze Guard**: Integrate **message-retention-guardian** as an intermediate middleware layer to evaluate and lock retention expiration timers.
+* **Storage & Indexing**: Couple PostgreSQL with Meilisearch or Elasticsearch for full-text custodian content search and cryptographic SHA-256 audit logs.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Help expand this list by submitting notable SaaS solutions or open-source legal preservation projects:
+
+1. 🍴 Fork the repository.
+2. 📝 Add or edit entries in `README.md` keeping the standard format:
+   - For SaaS: Include Company Size, Starting Price, Free Tier/Trial Limits, and Capabilities.
+   - For Open-Source: Include proper link, description, and star badge.
+3. 🚀 Submit a Pull Request with a clear summary of your changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated ecosystem helps your legal ops, compliance engineering, or eDiscovery workflows, please consider supporting the project:
+
+- ⭐ **Star the repository** to boost visibility for the legal tech community.
+- 🍴 **Fork the repo** to add your company's integrations or contribute fixes.
+- 📢 **Share with colleagues** in legal operations, infosec, and compliance.
+- ☕ **Buy me a coffee**: Support ongoing open-source maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** provided for educational and informational purposes; it does not constitute formal legal counsel.
+- Legal hold procedures must comply with jurisdiction-specific civil procedure rules (e.g., FRCP Rule 37(e), GDPR Article 17 exemptions). Consult certified legal counsel for litigation hold defensibility.
+
+---
 
 ## ⭐ Star History
 
-<a href="https://star-history.com/#ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management&Timeline" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Automated-Legal-Hold-Custodian-Management_growth.svg">
-    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Automated-Legal-Hold-Custodian-Management_growth.svg">
-  </picture>
-</a>
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management&type=date&legend=top-left)
