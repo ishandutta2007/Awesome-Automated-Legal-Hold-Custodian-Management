@@ -92,3 +92,12 @@ Star the repo if you find it useful!
 
 **Made for legal ops teams, IT compliance administrators, e-discovery professionals, and developers building preservation automation.**  
 Let's make legal hold management more open, automated, and defensible.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Automated-Legal-Hold-Custodian-Management_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Automated-Legal-Hold-Custodian-Management_growth.svg">
+  </picture>
+</a>
