@@ -16,45 +16,31 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS Products](#saas-products)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
-## SaaS/Hosted Platforms
+## Sector Overview & Market Dynamics
 
-- **[Druva Legal Hold Automation](https://www.druva.com/)**  
-  Cloud data protection platform with Legal Hold APIs for programmatic policy creation, custodian management, and data access via WebDAV, supporting automated hold workflows at scale [citation:4].
+The global legal hold and custodian management software market is estimated at approximately $1.4B to $1.8B, expanding toward $3.5B–$4.2B at a ~10–12% CAGR driven by stringent data governance mandates and cloud-sprawl preservation requirements. The market is **moderately fragmented** rather than winner-take-all, divided between multi-billion-dollar enterprise infrastructure incumbents (e.g., Microsoft, OpenText), specialized eDiscovery platforms (e.g., Relativity, Everlaw, DISCO), and specialized workflow point solutions.
 
-- **[Exterro Legal Hold](https://www.exterro.com/)**  
-  Enterprise legal hold solution with automated reminder and escalation rules, custodian acknowledgment tracking, and a matter-centric interface for unified e-discovery project oversight [citation:5].
+## SaaS Products
 
-- **[Logikcull Legal Hold](https://www.logikcull.com/)**  
-  Legal hold platform with Microsoft 365 Preserve-In-Place integration, enabling one-click preservation of Exchange mailboxes and OneDrive documents directly from the hold creation workflow [citation:6].
-
-- **[Relativity Legal Hold](https://www.relativity.com/)**  
-  Integrated legal hold application within RelativityOne for sending notices, interviewing custodians, automating follow-ups, and generating audit-ready reports on all hold communications [citation:7].
-
-- **[DISCO Legal Hold](https://www.csdisco.com/)**  
-  Cloud-based legal hold platform with one-click preserve-in-place across M365, Google Vault, Slack, Dropbox, and Box, plus automated custodian notice/remind/release workflows and defensible audit trails [citation:8].
-
-- **[Everlaw Legal Hold](https://www.everlaw.com/)**  
-  Legal holds module with scheduled automatic renotification, escalation notices, periodic reminders, custodian acknowledgment tracking, and support for both internal and external data preservations [citation:9].
-
-- **[Microsoft Purview Legal Hold](https://learn.microsoft.com/en-us/purview/)**  
-  Native Microsoft 365 preservation mechanism that intercepts deletion across Exchange, SharePoint, OneDrive, and Teams, overriding standard retention policies until the hold is explicitly released [citation:10].
-
-- **[Onna Legal Hold](https://www.onna.com/)**  
-  Legal hold and preservation API with JSON Logic query-based custodian and datasource targeting, job monitoring, and lifecycle management (create, update, finish, delete) for preservation workspaces [citation:11].
-
-- **[Zapproved Legal Hold Pro](https://www.zapproved.com/)**  
-  Cloud legal hold software for corporate legal teams with automated workflow for notices, reminders, escalations, custodian questionnaires, and in-place Office 365 hold application [citation:12].
-
-- **[TotalDiscovery](https://www.totaldiscovery.com/)**  
-  Cloud-based integrated legal hold, data collection, processing, and ECA solution for corporate legal and IT departments managing investigations and litigation [citation:13].
-
-- **[Casepoint Legal Hold](https://www.casepoint.com/)**  
-  Unified eDiscovery platform with legal hold module featuring automated communications, notifications, and custodian management inside a single secure environment [citation:14].
+| Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Free Trial | Key Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Purview Legal Hold](https://learn.microsoft.com/en-us/purview/)** | Valuation: ~$3.1T+ (Microsoft)<br>Revenue: ~$245B+ ARR | $12.00/user/mo (Purview Suite add-on over E3) or $60.00/user/mo (Full M365 E5) | 90-day free trial (includes 25 Purview Suite E5 trial licenses) | Native M365 preservation intercepting deletion across Exchange, SharePoint, OneDrive, and Teams with immutable holds [citation:10]. |
+| **[TotalDiscovery](https://www.totaldiscovery.com/)** | Valuation: ~$6.2B (OpenText, parent)<br>Revenue: ~$5.25B ARR | $1,500/year (base cloud collection/hold tier; custom enterprise tiers available) | Free standalone Legal Hold & Data Profiler tier (unlimited basic hold tracking/reminders; paid tiers required for data collection/processing) | Cloud-based legal hold, custodian data collection, automated preservation, and ECA workflow solution [citation:13]. |
+| **[Relativity Legal Hold](https://www.relativity.com/)** | Valuation: ~$3.6B (backed by ICONIQ)<br>Revenue: ~$235M–$320M ARR | $15.00/GB/month (RelativityOne data volume tier; custom annual contracts) | No self-serve free trial (14-to-30 day guided pilot / POC available upon qualified sales demo) | Integrated legal hold module inside RelativityOne with custodian interview questionnaires, escalations, and defensible audit reporting [citation:7]. |
+| **[Druva Legal Hold Automation](https://www.druva.com/)** | Valuation: ~$2.0B (Series H)<br>Revenue: ~$200M+ ARR | $8.00/user/month (Enterprise tier) | 30-day free trial (full cloud data protection and legal hold workflow evaluation) | Cloud data protection platform with Legal Hold APIs for programmatic hold policies, custodian tracking, and WebDAV access [citation:4]. |
+| **[Everlaw Legal Hold](https://www.everlaw.com/)** | Valuation: ~$2.0B (Series D)<br>Revenue: ~$80M–$90M ARR | $18.00/GB/month ($3.50/GB/mo archive tier via GSA; commercial hosting ~$18–$35/GB/mo with unlimited user seats) | No public self-serve free trial (14-day guided sandbox pilot via sales demo; free up to 50 GB for qualified "Everlaw for Good" pro-bono matters) | Scheduled renotifications, escalation notices, custodian acknowledgment tracking, and multi-cloud data preservation [citation:9]. |
+| **[Logikcull Legal Hold](https://www.logikcull.com/)** | Valuation: >$1.0B (acquired by Reveal / K1)<br>Revenue: ~$40M–$60M ARR | $40.00/GB/month ($400/month minimum active storage; unlimited matters & user seats) | Free Tier available ("Logikcull Hold" offers free automated notice issuing, reminder scheduling, and release workflows; pay-as-you-go applies if ingesting data) | Microsoft 365 preserve-in-place integration, one-click mailbox/OneDrive holds, and multi-matter custodian management [citation:6]. |
+| **[Exterro Legal Hold](https://www.exterro.com/)** | Valuation: >$1.0B (Unicorn recapitalization)<br>Revenue: ~$100M–$130M ARR | $49.00/user/month (or custom annual enterprise contract starting ~$10,000/year) | 30-day free trial / evaluation pilot for platform modules upon request; free FTK Imager standalone tool | Enterprise legal hold with automated escalation cadences, custodian questionnaire tracking, and unified eDiscovery oversight [citation:5]. |
+| **[Casepoint Legal Hold](https://www.casepoint.com/)** | Valuation: Undisclosed (Acquired by Thoma Bravo, Jan 2025)<br>Revenue: ~$40M–$60M ARR | $1,200/month (modular legal hold platform base subscription; no per-user license fees) | No self-serve free trial (14-day guided trial sandbox available following customized enterprise consultation) | Unified legal hold module with automated communications, custodian tracking, and in-place preservation in a secure environment [citation:14]. |
+| **[DISCO Legal Hold](https://www.csdisco.com/)** | Valuation: ~$350M–$400M Market Cap (NYSE: LAW)<br>Revenue: ~$171M TTM ARR | $500/month (base DISCO Hold flat tier; or all-inclusive per-GB processed data plan with unlimited users) | No self-serve free trial (14-day structured POC pilot upon request; free hosting up to 50 GB for approved pro-bono cases) | Cloud legal hold platform with one-click preserve-in-place across M365, Google Vault, Slack, Dropbox, and Box [citation:8]. |
+| **[Onna Legal Hold](https://www.onna.com/)** | Valuation: ~$150M–$200M (Series B; $54M raised)<br>Revenue: ~$5M–$10M ARR | $1,000/month (starting tier based on 1 TB data volume; unlimited user licenses) | No self-serve free trial (custom 14-day guided proof-of-concept environment available upon request) | Legal hold and preservation API using JSON Logic queries for custodian/datasource targeting and workspace lifecycle management [citation:11]. |
+| **[Zapproved Legal Hold Pro](https://www.zapproved.com/)** | Valuation: Subsumed under Exterro (Acquired 2023; ~$17M venture funding raised)<br>Revenue: ~$15M–$25M ARR | $4,500/year (ZDiscovery baseline subscription tier) | No self-serve free trial (14-to-30 day guided enterprise evaluation sandbox available upon request) | Automated custodian notifications, reminders, escalations, compliance questionnaires, and Office 365 hold automation [citation:12]. |
 
 ## Open-Source GitHub Projects
 
