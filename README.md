@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management?style=flat-square&color=blue" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -71,39 +71,39 @@ The industry remains **moderately fragmented**: sprawling enterprise hyperscaler
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source software, compliance toolkits, forensic acquisition tools, and retention engines for self-hosted legal hold workflows, sorted in descending order by GitHub Stars:
+Curated open-source software, compliance toolkits, forensic acquisition tools, and retention engines for self-hosted legal hold workflows, sorted in descending order by GitHub_Stars:
 
-1. 📂 **[ICIJ/extract](https://github.com/ICIJ/extract)** [![GitHub stars](https://img.shields.io/github/stars/ICIJ/extract?style=social&color=white)](https://github.com/ICIJ/extract/stargazers)  
+1. 📂 **[ICIJ/extract](https://github.com/ICIJ/extract)** [![GitHub_Stars](https://img.shields.io/github/stars/ICIJ/extract?style=social&color=white)](https://github.com/ICIJ/extract/stargazers)  
    *Cross-platform high-performance CLI utility for parallelized content extraction, document parsing, and file triage in investigative journalism and eDiscovery workflows.*
 
-2. ⚖️ **[shmsoft/FreeEed](https://github.com/shmsoft/FreeEed)** [![GitHub stars](https://img.shields.io/github/stars/shmsoft/FreeEed?style=social&color=white)](https://github.com/shmsoft/FreeEed/stargazers)  
+2. ⚖️ **[shmsoft/FreeEed](https://github.com/shmsoft/FreeEed)** [![GitHub_Stars](https://img.shields.io/github/stars/shmsoft/FreeEed?style=social&color=white)](https://github.com/shmsoft/FreeEed/stargazers)  
    *Open-source eDiscovery engine supporting automated data processing, PST/EML parsing, metadata indexing, deduplication, and staging for legal hold collections.*
 
-3. 🔍 **[FreeDiscovery/FreeDiscovery](https://github.com/FreeDiscovery/FreeDiscovery)** [![GitHub stars](https://img.shields.io/github/stars/FreeDiscovery/FreeDiscovery?style=social&color=white)](https://github.com/FreeDiscovery/FreeDiscovery/stargazers)  
+3. 🔍 **[FreeDiscovery/FreeDiscovery](https://github.com/FreeDiscovery/FreeDiscovery)** [![GitHub_Stars](https://img.shields.io/github/stars/FreeDiscovery/FreeDiscovery?style=social&color=white)](https://github.com/FreeDiscovery/FreeDiscovery/stargazers)  
    *Open-source REST API service for eDiscovery analytics, semantic search, categorization, and custodian dataset exploration.*
 
-4. 💬 **[mattermost/mattermost-plugin-legal-hold](https://github.com/mattermost/mattermost-plugin-legal-hold)** [![GitHub stars](https://img.shields.io/github/stars/mattermost/mattermost-plugin-legal-hold?style=social&color=white)](https://github.com/mattermost/mattermost-plugin-legal-hold/stargazers)  
+4. 💬 **[mattermost/mattermost-plugin-legal-hold](https://github.com/mattermost/mattermost-plugin-legal-hold)** [![GitHub_Stars](https://img.shields.io/github/stars/mattermost/mattermost-plugin-legal-hold?style=social&color=white)](https://github.com/mattermost/mattermost-plugin-legal-hold/stargazers)  
    *Official Mattermost plugin enabling compliance officers to place specific channels, direct messages, and custodians on immutable legal hold to prevent message deletion.*
 
-5. 📋 **[noamrazbuilds/legal-hold-manager](https://github.com/noamrazbuilds/legal-hold-manager)** [![GitHub stars](https://img.shields.io/github/stars/noamrazbuilds/legal-hold-manager?style=social&color=white)](https://github.com/noamrazbuilds/legal-hold-manager/stargazers)  
+5. 📋 **[noamrazbuilds/legal-hold-manager](https://github.com/noamrazbuilds/legal-hold-manager)** [![GitHub_Stars](https://img.shields.io/github/stars/noamrazbuilds/legal-hold-manager?style=social&color=white)](https://github.com/noamrazbuilds/legal-hold-manager/stargazers)  
    *Litigation hold management application for creating, issuing, and tracking legal notices, tracking custodian acknowledgments, and logging defensible audit trails.*
 
-6. 🛡️ **[wireapp/legalhold](https://github.com/wireapp/legalhold)** [![GitHub stars](https://img.shields.io/github/stars/wireapp/legalhold?style=social&color=white)](https://github.com/wireapp/legalhold/stargazers)  
+6. 🛡️ **[wireapp/legalhold](https://github.com/wireapp/legalhold)** [![GitHub_Stars](https://img.shields.io/github/stars/wireapp/legalhold?style=social&color=white)](https://github.com/wireapp/legalhold/stargazers)  
    *Enterprise legal hold daemon for Wire secure collaboration, preventing message purged records and capturing compliance streams for selected accounts.*
 
-7. ☁️ **[AlanHardesty/purview-ediscovery-export](https://github.com/AlanHardesty/purview-ediscovery-export)** [![GitHub stars](https://img.shields.io/github/stars/AlanHardesty/purview-ediscovery-export?style=social&color=white)](https://github.com/AlanHardesty/purview-ediscovery-export/stargazers)  
+7. ☁️ **[AlanHardesty/purview-ediscovery-export](https://github.com/AlanHardesty/purview-ediscovery-export)** [![GitHub_Stars](https://img.shields.io/github/stars/AlanHardesty/purview-ediscovery-export?style=social&color=white)](https://github.com/AlanHardesty/purview-ediscovery-export/stargazers)  
    *Automated Microsoft Purview eDiscovery Premium legal hold export utility using Microsoft Graph API for programmatic custodian package extractions.*
 
-8. 📦 **[zentrung/atlassian-evidence](https://github.com/zentrung/atlassian-evidence)** [![GitHub stars](https://img.shields.io/github/stars/zentrung/atlassian-evidence?style=social&color=white)](https://github.com/zentrung/atlassian-evidence/stargazers)  
+8. 📦 **[zentrung/atlassian-evidence](https://github.com/zentrung/atlassian-evidence)** [![GitHub_Stars](https://img.shields.io/github/stars/zentrung/atlassian-evidence?style=social&color=white)](https://github.com/zentrung/atlassian-evidence/stargazers)  
    *Exports Jira, Confluence, and Bitbucket history into tamper-evident, SHA256-manifested JSONL for litigation holds, investigations, and regulatory audits.*
 
-9. 📬 **[mailcellar/mailcellar](https://github.com/mailcellar/mailcellar)** [![GitHub stars](https://img.shields.io/github/stars/mailcellar/mailcellar?style=social&color=white)](https://github.com/mailcellar/mailcellar/stargazers)  
+9. 📬 **[mailcellar/mailcellar](https://github.com/mailcellar/mailcellar)** [![GitHub_Stars](https://img.shields.io/github/stars/mailcellar/mailcellar?style=social&color=white)](https://github.com/mailcellar/mailcellar/stargazers)  
    *Tamper-evident, incremental email backup system with built-in legal hold protection and retention policy enforcement across Google Workspace and IMAP.*
 
-10. 🔏 **[mizcausevic-dev/message-retention-guardian](https://github.com/mizcausevic-dev/message-retention-guardian)** [![GitHub stars](https://img.shields.io/github/stars/mizcausevic-dev/message-retention-guardian?style=social&color=white)](https://github.com/mizcausevic-dev/message-retention-guardian/stargazers)  
+10. 🔏 **[mizcausevic-dev/message-retention-guardian](https://github.com/mizcausevic-dev/message-retention-guardian)** [![GitHub_Stars](https://img.shields.io/github/stars/mizcausevic-dev/message-retention-guardian?style=social&color=white)](https://github.com/mizcausevic-dev/message-retention-guardian/stargazers)  
     *Ruby microservice enforcing retention policies and litigation freeze protection with pressure scoring to halt automated purge workflows on held data.*
 
-11. 🗄️ **[nimdassdev/OpenArchiver](https://github.com/nimdassdev/OpenArchiver)** [![GitHub stars](https://img.shields.io/github/stars/nimdassdev/OpenArchiver?style=social&color=white)](https://github.com/nimdassdev/OpenArchiver/stargazers)  
+11. 🗄️ **[nimdassdev/OpenArchiver](https://github.com/nimdassdev/OpenArchiver)** [![GitHub_Stars](https://img.shields.io/github/stars/nimdassdev/OpenArchiver?style=social&color=white)](https://github.com/nimdassdev/OpenArchiver/stargazers)  
     *Self-hosted email archiving and eDiscovery solution supporting Google Workspace, Microsoft 365, PST, and MBOX with immutable audit trails and hold capabilities.*
 
 ---
@@ -125,7 +125,7 @@ Contributions are welcome! Help expand this list by submitting notable SaaS solu
 1. 🍴 Fork the repository.
 2. 📝 Add or edit entries in `README.md` keeping the standard format:
    - For SaaS: Include Company Size, Starting Price, Free Tier/Trial Limits, and Capabilities.
-   - For Open-Source: Include proper link, description, and star badge.
+   - For Open-Source: Include proper link, description, and Stars_Badge.
 3. 🚀 Submit a Pull Request with a clear summary of your changes.
 
 ---
@@ -151,3 +151,12 @@ If this curated ecosystem helps your legal ops, compliance engineering, or eDisc
 ## ⭐ Star History
 
 [![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management&type=date&legend=top-left)
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Automated-Legal-Hold-Custodian-Management&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Automated-Legal-Hold-Custodian-Management_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Automated-Legal-Hold-Custodian-Management_growth.svg">
+  </picture>
+</a>
